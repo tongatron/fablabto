@@ -1,77 +1,21 @@
 ---
-layout: default
+layout: progetto
 title: Fablab Torino
 ---
-    
+
     <div class="container">
       <div class="row">
-      <h1>Progetti</h1>
-        <div class="col-md-3">
-          <img src="http://fablabtorino.org/wp-content/uploads/urbanage.jpg" class="img-responsive">
-          <h4>Urban Age</h4>
-          <p><a href="http://www.urbanage.it/"><strong>urbanage.it</strong></a><br>
-          Fabrizio Alessio</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="col-md-3">
-          <img src="http://placehold.it/300x200" class="img-responsive">
-          <h4>Progetto</h4>
-          <p><a href="#"><strong>sito.it</strong></a><br>
-          Autori</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="col-md-3">
-          <img src="http://placehold.it/300x200" class="img-responsive">
-          <h4>Progetto</h4>
-          <p><a href="#"><strong>sito.it</strong></a><br>
-          Autori</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="col-md-3">
-          <img src="http://placehold.it/300x200" class="img-responsive">
-          <h4>Progetto</h4>
-          <p><a href="#"><strong>sito.it</strong></a><br>
-          Autori</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-      </div>
-      <div class="row">  
-        <div class="col-md-3">
-          <img src="http://placehold.it/300x200" class="img-responsive">
-          <h4>Progetto</h4>
-          <p><a href="#"><strong>sito.it</strong></a><br>
-          Autori</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="col-md-3">
-          <img src="http://placehold.it/300x200" class="img-responsive">
-          <h4>Progetto</h4>
-          <p><a href="#"><strong>sito.it</strong></a><br>
-          Autori</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="col-md-3">
-          <img src="http://placehold.it/300x200" class="img-responsive">
-          <h4>Progetto</h4>
-          <p><a href="#"><strong>sito.it</strong></a><br>
-          Autori</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="col-md-3">
-          <img src="http://placehold.it/300x200" class="img-responsive">
-          <h4>Progetto</h4>
-          <p><a href="#"><strong>sito.it</strong></a><br>
-          Autori</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <img src="http://placehold.it/300x200" class="img-responsive">
-          <h4>Progetto</h4>
-          <p><a href="#"><strong>sito.it</strong></a><br>
-          Autori</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-      </div>
+        <h1>Progetti</h1>
+        {% for post in site.categories.progetti %} 
+            <div class="col-md-3">
+              <img src="{{ post.copertina }}" class="img-responsive">
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+              <p>
+              {{ post.autori }}
+              <br>
+              {{ post.excerpt }}
+              </p>
+            </div>
+        {% endfor %}
+      </div>  
     </div>
