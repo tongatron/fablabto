@@ -9,8 +9,8 @@
     <meta name="description" content="Fablab Torino">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/fablab.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/fablab.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800" rel="stylesheet">
 
@@ -26,7 +26,7 @@
       <div class="container">
         <div class="row" align="center">
           <a href="index.html">
-          <img src="img/logoquadrato-bianco.png">
+          <img src="/img/logoquadrato-bianco.png">
           </a>
         </div>
         <div class="navbar-header">
@@ -48,11 +48,11 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fablab Torino<span class="caret"></span></a>
+              <a href="{{site.baseurl}}/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fablab Torino<span class="caret"></span></a>
               <ul class="dropdown-menu">
         <li><a href="#">Chi siamo</a></li>
-        <li><a href="associazione.html">Associazione</a></li>
-        <li><a href="associazione.html">Iscriviti</a></li>
+        <li><a href="{{site.baseurl}}/associazione/">Associazione</a></li>
+        <li><a href="{{site.baseurl}}/iscriviti/">Iscriviti</a></li>
                 <li><a href="#">Contatti e FAQ</a></li>
               </ul>
             </li>
@@ -113,6 +113,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
