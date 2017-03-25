@@ -10,6 +10,15 @@ title: Fablab Torino
             <div class="col-md-3">
               <img src="{{ post.copertina }}" class="img-responsive">
               <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+
+
+              {% for tags in post.tags %} 
+              <span class="badge">{{ post.tags }}</span> xx
+              {% endfor %}
+              <hr>
+
+              <span class="badge">{{ post.tags }}</span>
+
               <p>
               <a href="{{ post.sito }}">{{ post.sito }}</a>
               <br>
