@@ -6,84 +6,24 @@ title: Fablab Torino, Associazione
     <div class="container">
       <div class="row direttivo">
         <h1>Consiglio direttivo</h1>
-        <div class="col-md-2">
-          <img class="img-rounded img-responsive" src="https://pbs.twimg.com/profile_images/821317973554196480/60ohhw9U_400x400.jpg" alt="Giovanni Bindi">
-          <div class="caption">
-            <h4>Giovanni Bindi</h4>
-            <p>PRESIDENTE<br>
-            <strong><a href="mailto:g.bindi@fablabtorino.org">g.bindi@fablabtorino.org</a></strong>
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <br>
-            <a href="http://tongatron.it/">tongatron.it</a><br>
-            </p>
-          </div>
+        
+        	{% for post in site.categories.direttivo%} 
+        	<div class="col-md-2">
+              <img src="{{ post.copertina }}" class="img-responsive">
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+              {{ post.ruolo }}
+              <p>
+              {{ post.excerpt }}
+              <a href="{{ post.sito }}">{{ post.sito }}</a>
+              </p>
+            </div>
+            {% endfor %}
         </div>
-        <div class="col-md-2">
-          <img class="img-rounded img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/000/224/3eb/2eea079.jpg" alt="Marco Cassino">
-          <div class="caption">
-            <h4>Marco Cassino</h4>
-            <p>VICE PRESIDENTE<br>
-            <strong><a href="mailto:m.cassino@fablabtorino.org">m.cassino@fablabtorino.org</a></strong>
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            <br>
-            <a href="http://millimetrico.it/">millimetrico.it</a><br>
-            </p>
-          </div>
-        </div> 
-        <div class="col-md-2">
-          <img class="img-rounded img-responsive" src="http://placehold.it/300x300" alt="Direttivo">
-          <div class="caption">
-            <h4>Riccardo Torazza</h4>
-            <p>TESORIERE<br>
-            <strong><a href="mailto:r.torazza@fablabtorino.org">r.torazza@fablabtorino.org</a></strong>
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            <br>
-            <a href="#">sito.com</a><br>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <img class="img-rounded img-responsive" src="http://placehold.it/300x300" alt="Direttivo">
-          <div class="caption">
-            <h4>Gianfranco Caputo</h4>
-            <p>SEGRETARIO<br>
-            <strong><a href="mailto:g.caputo@fablabtorino.org">g.caputo@fablabtorino.org</a></strong>
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            <br>
-            <a href="#">sito.com</a><br>
-            </p>
-          </div>
-        </div> 
-        <div class="col-md-2">
-          <img class="img-rounded img-responsive" src="http://placehold.it/300x300" alt="Direttivo">
-          <div class="caption">
-            <h4>Davide Gomba</h4>
-            <p>CONSIGLIERE<br>
-            <strong><a href="mailto:d.gomba@fablabtorino.org">d.gomba@fablabtorino.org</a></strong>
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            <br>
-            <a href="#">sito.com</a><br>
-            </p>
-          </div>
-        </div> 
-        <div class="col-md-2">
-          <img class="img-rounded img-responsive" src="http://placehold.it/300x300" alt="Direttivo">
-          <div class="caption">
-            <h4>Fabrizio Alessio</h4>
-            <p>CONSIGLIERE<br>
-            <strong><a href="mailto:f.alessio@fablabtorino.org">f.alessio@fablabtorino.org</a></strong>
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            <br>
-            <a href="#">sito.com</a><br>
-            </p>
-          </div>
-        </div>                 
+
+
+
+
+
       </div>
     </div>
 
