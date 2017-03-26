@@ -3,7 +3,7 @@ layout: centrale
 title:  "Fabrizio Alessio"
 date:   2017-03-23
 published: true
-permalink: /fabrizioalessio
+permalink: ../fabrizioalessio
 categories: utenti direttivo
 ruolo: consigliere
 sito: http://sito.it

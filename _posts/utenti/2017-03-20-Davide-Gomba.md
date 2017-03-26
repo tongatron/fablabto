@@ -3,7 +3,7 @@ layout: centrale
 title:  "Davide Gomba"
 date:   2017-03-23
 published: true
-permalink: /davidegomba
+permalink: ../davidegomba
 categories: utenti direttivo
 ruolo: consigliere
 sito: http://sito.it

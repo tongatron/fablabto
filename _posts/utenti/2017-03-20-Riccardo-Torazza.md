@@ -3,7 +3,7 @@ layout: centrale
 title:  "Riccardo Torazza"
 date:   2017-03-23
 published: true
-permalink: /riccardotorazza
+permalink: ../riccardotorazza
 categories: utenti direttivo
 ruolo: tesoriere
 sito: http://sito.it

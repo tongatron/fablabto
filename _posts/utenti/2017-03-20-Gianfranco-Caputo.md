@@ -3,7 +3,7 @@ layout: centrale
 title:  "Gianfranco Caputo"
 date:   2017-03-22
 published: true
-permalink: /gianfrancocaputo
+permalink: ../gianfrancocaputo
 categories: utenti direttivo
 ruolo: segretario
 sito: http://sito.it
