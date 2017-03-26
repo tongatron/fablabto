@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fablab Torino, Chi siamo
+title: Fablab Torino, Contatti e FAQ
 ---
 
 ### Il Fablab Torino è un laboratorio di fabbricazione digitale e un makerspace.
