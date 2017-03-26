@@ -1,0 +1,54 @@
+---
+layout: default
+title: Fablab Torino, corsi
+---
+
+<div class="container">
+	<div class="row corsi">
+		
+			<div class="col-md-4">
+				<h1>Corsi base</h1>
+				<p>Tutti i corsi base sono gratuiti per gli iscritti e hanno come obiettivo quello di renderti indipendente
+				nell'utilizzo di qualsiasi macchina.</p>
+				{% for post in site.categories.corsibase%} 
+				<img src="{{ post.immagine }}" class="img-responsive">
+				<h4>{{ post.title }}</h4>
+				<p>
+				{{ post.quando }}
+				{{ post.excerpt }}
+				</p>
+				<p>
+					<a class="btn btn-default" href="{{ post.url }}" role="button">Info e iscrizioni</a>
+				</p>
+				<hr>
+				{% endfor %}
+			</div>
+			<div class="col-md-4">
+				<h1>Workshops</h1>
+				{% for post in site.categories.workshop%} 
+				<img src="{{ post.immagine }}" class="img-responsive">
+				<h4>{{ post.title }}</h4>
+				<p>
+				{{ post.excerpt }}
+				</p>
+				<p>
+					<a class="btn btn-default" href="{{ post.url }}" role="button">Info e iscrizioni</a>
+				</p>
+				<hr>
+				{% endfor %}
+			</div>			
+			<div class="col-md-4">
+				<h1>Fablab for Kids</h1>
+				{% for post in site.categories.f4k%} 
+				<img src="{{ post.immagine }}" class="img-responsive">
+				<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+				<p>
+				{{ post.excerpt }}
+				</p>
+				<hr>
+				{% endfor %}
+			</div>			
+
+		
+	</div>
+</div>
