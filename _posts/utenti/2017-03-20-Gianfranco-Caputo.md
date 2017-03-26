@@ -1,10 +1,11 @@
 ---
 layout: centrale
-title:  "Nome Cognome"
-date:   2017-03-23
+title:  "Gianfranco Caputo"
+date:   2017-03-22
 published: true
+permalink: /gianfrancocaputo
 categories: utenti direttivo
-ruolo: consigliere
+ruolo: segretario
 sito: http://sito.it
 copertina: http://placehold.it/300x300
 ---

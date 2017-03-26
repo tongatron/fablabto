@@ -1,10 +1,11 @@
 ---
 layout: centrale
-title:  "Gianfranco Caputo"
-date:   2017-03-22
+title:  "Riccardo Torazza"
+date:   2017-03-23
 published: true
+permalink: /riccardotorazza
 categories: utenti direttivo
-ruolo: segretario
+ruolo: tesoriere
 sito: http://sito.it
 copertina: http://placehold.it/300x300
 ---

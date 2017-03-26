@@ -9,6 +9,7 @@ dove: Fablab Torino
 costo: 
 durata: tutto il giorno
 curadi:
+permalink: /arduinoday2017
 per info: n.cognome@fablabtorino.org
 iscrizione: https://www.eventbrite.it/e/biglietti-hello-world-stampa-3d-32294542847?aff=erelexpmlt
 ---

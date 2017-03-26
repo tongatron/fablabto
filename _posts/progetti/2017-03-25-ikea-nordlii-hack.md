@@ -4,6 +4,7 @@ title:  "IKEA Nordli hack"
 date:   2017-03-23
 published: true
 categories: progetti
+permalink: /ikeanordlihack
 tags: giovannibindi, design, lasercut
 sito: http://tongatron.it/IKEA-Nordli-hack/
 autori: Giovanni Bindi
