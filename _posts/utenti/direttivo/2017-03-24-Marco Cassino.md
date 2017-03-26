@@ -1,5 +1,5 @@
 ---
-layout: progetti
+layout: centrale
 title:  "Marco Cassino"
 date:   2017-03-23
 published: true

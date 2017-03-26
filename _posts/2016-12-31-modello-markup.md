@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: centrale
 title:  "Welcome to Jekyll!"
 date:   2016-12-31 10:00:00 -0600
 categories: jekyll

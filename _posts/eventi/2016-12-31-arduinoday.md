@@ -1,5 +1,5 @@
 ---
-layout: progetti
+layout: centrale
 title:  "Arduino Day"
 date:   2016-12-31 10:00:00 -0600
 categories: eventi

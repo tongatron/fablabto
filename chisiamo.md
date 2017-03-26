@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: centrale
 title: Fablab Torino, Contatti e FAQ
 ---
 

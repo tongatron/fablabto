@@ -1,5 +1,5 @@
 ---
-layout: progetto
+layout: centrale
 title:  "IKEA Nordli hack"
 date:   2017-03-23
 published: true
