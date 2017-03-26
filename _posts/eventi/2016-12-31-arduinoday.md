@@ -3,7 +3,7 @@ layout: centrale
 title:  "Arduino Day"
 date:   2016-12-31 10:00:00 -0600
 categories: eventi
-immagine: {{site.baseurl}}/img/corsi/arudinoday2017.jpg
+immagine: /img/corsi/arudinoday2017.jpg
 quando: sabato 1 aprile
 dove: Fablab Torino
 costo: 
