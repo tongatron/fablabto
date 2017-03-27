@@ -8,8 +8,10 @@ title: Fablab Torino
         <h1>Progetti</h1>
         {% for post in site.categories.progetti %} 
             <div class="col-md-2">
-              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+              <a href="{{ post.url }}">
               <img src="{{ post.copertina }}" class="img-responsive img-rounded">
+              </a>
               
               <!--
               {% for tags in post.tags %} 
@@ -18,8 +20,11 @@ title: Fablab Torino
               -->
               <p>
               {{ post.excerpt }}
+              <!--
               <a href="{{ post.sito }}">{{ post.sito }}</a>
+              -->
               </p>
+              <hr>
             </div>
         {% endfor %}
       </div>  
