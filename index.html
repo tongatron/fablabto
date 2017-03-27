@@ -86,6 +86,7 @@ title: Fablab Torino
         	<div class="col-sm-4">
 				<h3>Appuntamenti</h3>
 				<h4>Vieni a conoscere i gruppi di lavoro e unisciti ai loro progetti.</h4>
+				<button type="button" class="btn btn-info btn-xs btn-block">Scopri le communites</button>
 
 				{% for post in site.categories.appuntamenti%} 
 					<div class="media">
@@ -107,9 +108,8 @@ title: Fablab Torino
 			</div>        		
         	<div class="col-sm-4">
 			    <h3>Eventi</h3>
-			    <h4>Vieni a scoprire il magico mondo dei makers.<br>
-				<a href="{{site.baseurl}}/corsi/">Scopri tutti gli eventi</a>
-				</h4>
+			    <h4>Vieni a scoprire il magico mondo dei makers.</h4>
+			    <button type="button" class="btn btn-info btn-xs btn-block">Scopri tutti gli eventi</button>
 				{% for post in site.categories.eventi%} 
 					<div class="media">
 					  <div class="media-left">
@@ -130,9 +130,8 @@ title: Fablab Torino
         	</div>
         	<div class="col-md-4">
 			    <h3>Corsi</h3>
-			    <h4>Corsi base gratuti per gli iscritti e workshop.<br>
-			    <a href="{{site.baseurl}}/eventi/">Scorpi tutti i corsi</a>
-			    </h4>
+			    <h4>Corsi base gratuti per gli iscritti e workshop.</h4>
+			    <button type="button" class="btn btn-info btn-xs btn-block">Scopri tutti i corsi</button>
 				{% for post in site.categories.workshop%} 
 					<div class="media">
 					  <div class="media-left">

@@ -52,20 +52,26 @@ title: Fablab Torino, Associazione
     <hr>
 
     <div class="container">
-     	<div class="row direttivo">
-       		<h1>Consiglio direttivo</h1>
-        	{% for post in site.categories.direttivo%} 
-        	<div class="col-md-2">
-              <img src="{{ post.copertina }}" class="img-responsive">
-              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-              {{ post.ruolo }}
-              <p>
-              {{ post.excerpt }}
-              <a href="{{ post.sito }}">{{ post.sito }}</a>
-              </p>
-            </div>
-            {% endfor %}
-            <h1>Makers</h1>
-        </div>
+    	<div class="row direttivo">
+    		<h1>Consiglio direttivo</h1>
+    		{% for post in site.categories.direttivo%} 
+        	<div class="col-md-4">
+				<div class="media">
+				  <div class="media-left">
+				      <img src="{{ post.copertina }}" width="100px">
+				  </div>
+				  <div class="media-body">
+				    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+				    <p>
+				    {{ post.ruolo }}
+				    {{ post.excerpt }}
+				    <a href="{{ post.sito }}">{{ post.sito }}</a>
+				    </p>
+				  </div>
+				</div>
+				<hr>
+			</div> 
+			{% endfor %} 
+    	</div>
 	</div>    
     
