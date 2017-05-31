@@ -8,11 +8,11 @@ title: Fablab Torino
     	<div class="row">
     		<div class="col-sm-4">
     			<h4>IMPARARE</h4>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     		</div>
     		<div class="col-sm-4">
     			<h4>SPERIMENTARE</h4>
-    			<p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    			<p class="lead"> ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     		</div>
     		<div class="col-sm-4">
     			<h3>Newsletter</h3>
@@ -73,7 +73,7 @@ title: Fablab Torino
 			<div class="row" align="center">
 				<div class="col-md-6 col-md-offset-3">
 					<h1>Iscriviti al Fablab</h1>
-					<h4>Usa i macchinari, partecipa ai corsi gratuiti, frequenta liberamente il laboratorio ed entra a far parte della nostra community.</h4>
+					<h4 class="lead">Usa i macchinari, partecipa ai corsi gratuiti, frequenta liberamente il laboratorio ed entra a far parte della nostra community.</h4>
 					</p>
 					<a class="btn btn-primary" href="{{site.baseurl}}/iscriviti/" role="button">Iscriviti</a>
 				</div>
@@ -84,10 +84,9 @@ title: Fablab Torino
 
       	<div class="row">
         	<div class="col-sm-4">
-				<h3>Appuntamenti</h3>
-				<h4>Vieni a conoscere i gruppi di lavoro e unisciti ai loro progetti.</h4>
-				<button type="button" class="btn btn-info btn-xs btn-block">Scopri le communites</button>
-
+				<h3 class="text-center">Appuntamenti</h3>
+				<button type="button" class="btn btn-primary btn-xs btn-block">Scopri le communites</button>
+				<h4 class="lead">Vieni a conoscere i gruppi di lavoro e unisciti ai loro progetti.</h4>
 				{% for post in site.categories.appuntamenti%} 
 					<div class="media">
 					  <div class="media-left">
@@ -107,9 +106,9 @@ title: Fablab Torino
 
 			</div>        		
         	<div class="col-sm-4">
-			    <h3>Eventi</h3>
-			    <h4>Vieni a scoprire il magico mondo dei makers.</h4>
-			    <button type="button" class="btn btn-info btn-xs btn-block">Scopri tutti gli eventi</button>
+			    <h3 class="text-center">Eventi</h3>
+			    <button type="button" class="btn btn-primary btn-xs btn-block">Scopri tutti gli eventi</button>
+			    <h4 class="lead">Vieni a scoprire il magico mondo dei makers.</h4>
 				{% for post in site.categories.eventi%} 
 					<div class="media">
 					  <div class="media-left">
@@ -129,9 +128,9 @@ title: Fablab Torino
 			    
         	</div>
         	<div class="col-md-4">
-			    <h3>Corsi</h3>
-			    <h4>Corsi base gratuti per gli iscritti e workshop.</h4>
-			    <button type="button" class="btn btn-info btn-xs btn-block">Scopri tutti i corsi</button>
+			    <h3 class="text-center">Corsi</h3>
+			    <button type="button" class="btn btn-primary btn-xs btn-block">Scopri tutti i corsi</button>
+			    <h4 class="lead">Corsi base gratuti per gli iscritti e workshop.</h4>
 				{% for post in site.categories.workshop%} 
 					<div class="media">
 					  <div class="media-left">
